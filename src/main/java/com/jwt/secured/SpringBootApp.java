@@ -1,13 +1,13 @@
-package com.gkube.kubeseeder;
+package com.jwt.secured;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KubeSeederApplication {
+public class SpringBootApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(KubeSeederApplication.class, args);
+        SpringApplication.run(SpringBootApp.class, args);
     }
 
 }

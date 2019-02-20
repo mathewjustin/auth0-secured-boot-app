@@ -1,4 +1,4 @@
-package com.gkube.kubeseeder.rest;
+package com.jwt.secured.rest;
 
 import io.netty.handler.codec.http.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;

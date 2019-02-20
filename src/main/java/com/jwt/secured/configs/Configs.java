@@ -1,4 +1,4 @@
-package com.gkube.kubeseeder.configs;
+package com.jwt.secured.configs;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
