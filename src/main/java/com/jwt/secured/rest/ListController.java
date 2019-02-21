@@ -1,19 +1,12 @@
 package com.jwt.secured.rest;
 
-import io.netty.handler.codec.http.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.boot.json.GsonJsonParser;
-import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import com.fasterxml.jackson.core.type.TypeReference;
-import org.synchronoss.cloud.nio.multipart.util.IOUtils;
-
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 import java.util.stream.Collectors;
 
