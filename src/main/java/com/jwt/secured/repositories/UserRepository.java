@@ -1,9 +1,9 @@
 package com.jwt.secured.repositories;
 
-import com.jwt.secured.user.ApplicationUser;
+import com.jwt.secured.user.User;
 import org.springframework.data.repository.CrudRepository;
 
-public interface UserRepository extends CrudRepository<ApplicationUser,Long> {
+public interface UserRepository extends CrudRepository<User,Long> {
 
-    public ApplicationUser findApplicationUserByUsername(String username);
+    public User findApplicationUserByUsername(String username);
 }

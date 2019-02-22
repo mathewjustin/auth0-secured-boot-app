@@ -1,24 +1,30 @@
+/*
 package com.jwt.secured.user;
 
 
-import lombok.Data;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.ToString;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.User;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import java.util.Collection;
 
-@Entity
-@Data
-public class ApplicationUser {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+@ToString
+public class ApplicationUsers extends User {
+
+
     private long id;
 
     private String username;
 
+    private String testData="testing data";
+
     private String password;
 
 
+    public ApplicationUser(String username, String password, Collection<? extends GrantedAuthority> authorities) {
+        super(username, password, authorities);
+    }
 }
+*/
